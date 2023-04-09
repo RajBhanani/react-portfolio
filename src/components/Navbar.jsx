@@ -14,11 +14,11 @@ function Navbar() {
       </div>
       {/* <div className="nav"> */}
       <div className="items">
-        <Link to={`/`}>Home</Link>
-        <Link to={`/about`}>About</Link>
-        <Link to={`/experience`}>Experience</Link>
-        <Link to={`/projects`}>Projects</Link>
-        <Link to={`/contact`}>Contact</Link>
+        <Link to="/">Home</Link>
+        <Link to="/about">About</Link>
+        <Link to="/experience">Experience</Link>
+        <Link to="/projects">Projects</Link>
+        <Link to="/contact">Contact</Link>
       </div>
       {/* </div> */}
     </header>
