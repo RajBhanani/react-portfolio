@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.intro {
+    display: flex;
+    margin: 40px;
+    /* padding: 20px; */
+}
+
+#intro{
+    background-color: #201F41;
+}
+
+.intro-text{
+    border: 2px solid white;
+    padding: 50px;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: start;
+    width: 61.8%;
+}
+
+.intro-image {
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 38.2%;
+}
+
+.intro-image img {
+    width: 69%;
+}
+
+.heading {
+    display: flex;
+    align-items: end;
+}

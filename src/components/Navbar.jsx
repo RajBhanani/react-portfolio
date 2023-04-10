@@ -7,7 +7,7 @@ function Navbar() {
   const [{ navBackgroundColor, hoverStyle }, setNavStyle] = useState("");
   const [isHover, setIsHover] = useState({
     home: false,
-    about: false,
+    skills: false,
     experience: false,
     projects: false,
     contact: false,
@@ -20,7 +20,7 @@ function Navbar() {
         hoverStyle: { backgroundColor: "#2a294f", transition: "ease-out 0.2s" },
       });
     }
-    if (location.pathname === "/about") {
+    if (location.pathname === "/skills") {
       setNavStyle({
         navBackgroundColor: "#422D53",
         hoverStyle: { backgroundColor: "#4c375d", transition: "ease-out 0.2s" },
@@ -47,7 +47,7 @@ function Navbar() {
   }, [location]);
 
   return (
-    <header style={{ backgroundColor: navBackgroundColor }}>
+    <header style={{ backgroundColor: navBackgroundColor, transition: "ease-out 0.2s" }}>
       <div className="logo">
         <img
           src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.HRCx3YTKjKJQ7BWXHod5uwHaFj%26pid%3DApi&f=1&ipt=dbecb0da5e271067f5b670373c8a8320e9dc9d0b3be8de5683b431fbabc961df&ipo=images"
@@ -71,13 +71,13 @@ function Navbar() {
         <NavLink
           className="item"
           onMouseEnter={(prev) => {
-            setIsHover({ ...prev, about: true });
+            setIsHover({ ...prev, skills: true });
           }}
-          onMouseLeave={(prev) => setIsHover({ ...prev, about: false })}
-          style={isHover.about ? hoverStyle : {}}
-          to="/about"
+          onMouseLeave={(prev) => setIsHover({ ...prev, skills: false })}
+          style={isHover.skills ? hoverStyle : {}}
+          to="/skills"
         >
-          About
+          Skills
         </NavLink>
         <NavLink
           className="item"
