@@ -1,23 +1,12 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-
 .home-main {
-    /* overflow-y: scroll; */
-    /* height: 300vh; */
-    display: flex;
-    flex-direction: column;
-    /* scroll-snap-type: mandatory; */
+  display: flex;
+  flex-direction: column;
 }
 
-.content{
-    display: flex;
-    flex-direction: column;
-    scroll-snap-align: start;
-    /* justify-content: center;     */
-    /* align-items: center; */
-    /* width: 81.8%; */
-    height: 100vh;
-    /* background-color: red; */
+.content {
+  display: flex;
+  flex-direction: column;
+  scroll-snap-align: start;
+
+  height: 100vh;
 }

@@ -1,8 +1,9 @@
 import React from "react";
 import "../styles/Home.css";
-import Intro from "./Home Components/Intro";
-import About from "./Home Components/About";
-import Sitemap from "./Home Components/Sitemap";
+
+import Intro from "../components/Home Components/Intro";
+import About from "../components/Home Components/About";
+import Sitemap from "../components/Home Components/Sitemap";
 
 function Home() {
   return (

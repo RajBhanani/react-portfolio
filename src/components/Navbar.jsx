@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
-import "../styles/Navbar.css";
 import { NavLink, useLocation } from "react-router-dom";
+import "../styles/Navbar.css";
 
 function Navbar() {
   const location = useLocation();
@@ -10,7 +10,6 @@ function Navbar() {
     skills: false,
     experience: false,
     projects: false,
-    contact: false,
   });
 
   useEffect(() => {
@@ -36,12 +35,6 @@ function Navbar() {
       setNavStyle({
         navBackgroundColor: "#D1788F",
         hoverStyle: { backgroundColor: "#cd6b85", transition: "ease-out 0.2s" },
-      });
-    }
-    if (location.pathname === "/contact") {
-      setNavStyle({
-        navBackgroundColor: "#DD7C86",
-        hoverStyle: { backgroundColor: "#da6c77", transition: "ease-out 0.2s" },
       });
     }
   }, [location]);
@@ -105,17 +98,6 @@ function Navbar() {
           to="/projects"
         >
           Projects
-        </NavLink>
-        <NavLink
-          className="item"
-          onMouseEnter={(prev) => {
-            setIsHover({ ...prev, contact: true });
-          }}
-          onMouseLeave={(prev) => setIsHover({ ...prev, contact: false })}
-          style={isHover.contact ? hoverStyle : {}}
-          to="/contact"
-        >
-          Contact
         </NavLink>
       </div>
       {/* </div> */}

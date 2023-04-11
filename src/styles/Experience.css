@@ -1,0 +1,15 @@
+.experience-main {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    background-color: #912E54;
+}
+
+.timeline {
+    margin-top: 7vh;
+}
+
+.vertical-timeline-element-date {
+    color: white;
+}
