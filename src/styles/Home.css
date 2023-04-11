@@ -3,7 +3,7 @@
     padding: 0;
 }
 
-.main {
+.home-main {
     /* overflow-y: scroll; */
     /* height: 300vh; */
     display: flex;
@@ -11,15 +11,12 @@
     /* scroll-snap-type: mandatory; */
 }
 
-.main section{
-    scroll-snap-align: start;
-}
-
 .content{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    scroll-snap-align: start;
+    /* justify-content: center;     */
+    /* align-items: center; */
     /* width: 81.8%; */
     height: 100vh;
     /* background-color: red; */

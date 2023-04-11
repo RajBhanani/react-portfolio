@@ -1,10 +1,12 @@
-import React from 'react'
-import '../../styles/Sitemap.css'
+import React from "react";
+import "../../styles/Sitemap.css";
 
 function Sitemap() {
   return (
-    <div>Sitemap</div>
-  )
+    <div className="side-main">
+      <section></section>
+    </div>
+  );
 }
 
-export default Sitemap
+export default Sitemap;

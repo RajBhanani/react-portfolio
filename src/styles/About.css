@@ -1,0 +1,21 @@
+.about-main {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 40px;
+    margin: 23vh 27vh;
+    padding: 30px;
+    border: 5px solid #201f41;
+}
+
+.about-main h1{
+    font-size: 30px;
+    color: #201f41;
+}
+
+.about-main p{
+    font-size: 18px;
+    margin: 5px 0px;
+}
