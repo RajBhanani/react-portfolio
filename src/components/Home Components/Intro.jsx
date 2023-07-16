@@ -7,7 +7,7 @@ function Intro() {
     <div className="intro">
       <div className="intro-image">
         <img
-          src="https://drive.google.com/uc?export=view&id=1VBRGE6JU6ZAO7PMwGqV2Gmw35-y0mZ9Q"
+          src=""
           alt="me"
         />
       </div>
@@ -21,7 +21,7 @@ function Intro() {
           <p>(General Kenobi!)</p>
         </div>
         <p>
-          I am Raen Death Vietor, a zealous Web Developer who does Frontend,
+          I am Raj, a zealous Web Developer who does Frontend,
           Backend, and also your mother. I am also very interested in C++ and
           everything associated with it.
         </p>
