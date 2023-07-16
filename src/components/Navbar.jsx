@@ -51,7 +51,7 @@ function Navbar() {
           src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.HRCx3YTKjKJQ7BWXHod5uwHaFj%26pid%3DApi&f=1&ipt=dbecb0da5e271067f5b670373c8a8320e9dc9d0b3be8de5683b431fbabc961df&ipo=images"
           alt="logo"
         />
-        <h3>Raen Death Vietor</h3>
+        <h3>Raj</h3>
       </div>
       {/* <div className="nav"> */}
       <div className="items">
